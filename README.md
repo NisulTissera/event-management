@@ -1,16 +1,29 @@
-# eventmanagment
+# Campus Event Management System
 
-A new Flutter project.
+This is a cross-platform Flutter application for managing campus events.
 
-## Getting Started
+## Requirements
 
-This project is a starting point for a Flutter application.
+- Flutter SDK
+- Dart SDK
+- Node.js (for backend API)
+- Android Emulator or Chrome
 
-A few resources to get you started if this is your first Flutter project:
+## How to Run the Project
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. Clone the repository:
+   git clone https://github.com/yourusername/campus-event-management-system.git
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+2. Navigate into the project folder:
+   cd campus-event-management-system
+
+3. Install dependencies:
+   flutter pub get
+
+4. Run backend server:
+   json-server --watch db.json --port 3000
+
+5. Run Flutter app:
+   flutter run -d chrome
+   OR
+   flutter run
